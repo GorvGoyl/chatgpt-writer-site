@@ -17,7 +17,7 @@ export const formStyles = {
   label: ` mb-2 block text-sm font-medium text-slate-900 
   `,
   buttonPrimary: ` text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 
-  font-medium rounded-lg text-sm py-2 px-4 text-center 
+  font-medium tracking-wide rounded-lg text-base py-2.5 px-4 text-center 
   inline-flex items-center no-underline
   disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none
     `,
