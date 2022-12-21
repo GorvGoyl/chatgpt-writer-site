@@ -31,6 +31,10 @@ export default function Home() {
               <ChromeLogo size="34" />
               Download Free Extension
             </a>
+            <h5 className="text-base mt-4 text-slate-500">
+              This extension works in all Chromium-based browsers, such as
+              Chrome, Brave, and Edge.
+            </h5>
           </div>
 
           <section>
