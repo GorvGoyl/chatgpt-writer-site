@@ -1,15 +1,40 @@
 import Head from "next/head";
 
+const title = "ChatGPT Writer - Free email writer for Gmail";
+const description =
+  "Craft personalized email replies in no time using AI (ChatGPT). Currently supported for Gmail. LinkedIn and Outlook coming soon.";
+
+const liveDomain = "https://chatgptwriter.ai";
+const pageURL = liveDomain;
+const type = "website";
+const twitterHandle = "@GorvGoyl";
+const authorName = "Gourav Goyal";
+const ogImageURL = `${liveDomain}/og.jpg`;
+
 export function Header() {
   return (
     <>
       <Head>
-        <title>ChatGPT Writer - Free Email writer for Gmail</title>
-        <meta
-          name="description"
-          content="ChatGPT Writer - Email writer for Gmail (LinkedIn and Outlook coming soon)"
-        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="robots" content="follow, index" />
+        <meta name="title" content={title} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content={pageURL} />
+        <meta property="og:type" content={type} />
+        <meta property="og:site_name" content={authorName} />
+        <meta property="og:description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:image" name="image" content={ogImageURL} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content={twitterHandle} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={ogImageURL} />
+        <meta property="twitter:url" content={pageURL} />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
         <link rel="icon" href="/favicon.ico" />
 
         <link
@@ -31,8 +56,6 @@ export function Header() {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
       </Head>
     </>
   );
