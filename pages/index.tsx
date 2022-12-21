@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="mt-10">
             <a
-              href=""
+              href="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
               className={`${formStyles.buttonPrimary} gap-4 text-lg py-3 px-6`}
             >
               <ChromeLogo size="34" />
