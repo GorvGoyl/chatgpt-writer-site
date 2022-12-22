@@ -8,7 +8,8 @@ import gmail_button from "../public/images/gmail_button.jpg";
 import email_composer from "../public/images/email_composer.jpg";
 import reply_generated_insert_reply from "../public/images/reply_generated_insert_reply.jpg";
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
-
+const extLink =
+  "https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/";
 export default function Home() {
   return (
     <>
@@ -25,7 +26,9 @@ export default function Home() {
 
           <div className="mt-12">
             <a
-              href="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
+              href={extLink}
+              target="_blank"
+              rel="noreferrer"
               className={`${formStyles.buttonPrimary} gap-4 text-lg py-3 px-6`}
             >
               <ChromeLogo size="34" />
@@ -59,10 +62,15 @@ export default function Home() {
             <h2 id="how-to-use">How to use</h2>
             <div className="relative">
               <h5>
-                Install the extension from the Chrome Web Store. <br />
+                Install the <a href={extLink}> ChatGPT Writer extension</a> from
+                the Chrome Web Store. <br />
                 Go to Gmail, open an email, and reply to it. <br />
                 Click the <b>ChatGPT Writer extension</b> button in the Gmail
-                reply box.
+                reply box. <br />
+                <i>
+                  (reload the Gmail tab once if it was already opened before
+                  installing the extension)
+                </i>
               </h5>
               <Image
                 src={gmail_button}
