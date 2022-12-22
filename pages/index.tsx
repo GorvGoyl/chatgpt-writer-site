@@ -49,13 +49,10 @@ export default function Home() {
             <div>
               <video
                 src={"./videos/chatgpt_writer_demo_1080.mp4"}
-                // className={cls}
-                // controls={props.disableZoom === true}
                 controls={true}
                 autoPlay={false}
                 muted={true}
                 loop={true}
-                // autopictureinpicture={true}
               />
             </div>
 
@@ -75,10 +72,7 @@ export default function Home() {
               <Image
                 src={gmail_button}
                 alt="chatgpt writer button on gmail"
-                // width={500} automatically provided
-                // height={500} automatically provided
-                // blurDataURL="data:..." automatically provided
-                // placeholder="blur" // Optional blur-up while loading
+                placeholder="blur" // Optional blur-up while loading
               />
               <h5>
                 Briefly enter what you want to reply to and hit{" "}
@@ -99,10 +93,7 @@ export default function Home() {
               <Image
                 src={email_composer}
                 alt="email composer"
-                // width={500} automatically provided
-                // height={500} automatically provided
-                // blurDataURL="data:..." automatically provided
-                // placeholder="blur" // Optional blur-up while loading
+                placeholder="blur" // Optional blur-up while loading
               />
               <h5>
                 Personalized email replies will be generated using AI. <br />{" "}
@@ -112,19 +103,28 @@ export default function Home() {
               <Image
                 src={reply_generated_insert_reply}
                 alt="reply generated insert reply"
-                // width={500} automatically provided
-                // height={500} automatically provided
-                // blurDataURL="data:..." automatically provided
-                // placeholder="blur" // Optional blur-up while loading
+                placeholder="blur" // Optional blur-up while loading
               />
               <Image
                 src={inserted_generated_reply}
                 alt="Picture of the author"
-                // width={500} automatically provided
-                // height={500} automatically provided
-                // blurDataURL="data:..." automatically provided
-                // placeholder="blur" // Optional blur-up while loading
+                placeholder="blur" // Optional blur-up while loading
               />
+            </div>
+          </section>
+          <section>
+            <h2 id="support">Contact</h2>
+            <div>
+              Provide feedback, ask questions, and report bugs on{" "}
+              <a
+                target={"_blank"}
+                className="text-slate-600"
+                rel="noreferrer"
+                href="https://github.com/GorvGoyl/ChatGPT-Writer/discussions"
+              >
+                Github
+              </a>
+              .
             </div>
           </section>
           <section>

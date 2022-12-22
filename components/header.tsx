@@ -8,7 +8,7 @@ const liveDomain = "https://chatgptwriter.ai";
 const pageURL = liveDomain;
 const type = "website";
 const twitterHandle = "@GorvGoyl";
-const authorName = "Gourav Goyal";
+const siteName = "ChatGPT Writer";
 const ogImageURL = `${liveDomain}/og.jpg`;
 
 export function Header() {
@@ -23,7 +23,7 @@ export function Header() {
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content={pageURL} />
         <meta property="og:type" content={type} />
-        <meta property="og:site_name" content={authorName} />
+        <meta property="og:site_name" content={siteName} />
         <meta property="og:description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:image" name="image" content={ogImageURL} />
