@@ -48,7 +48,7 @@ export default function Home() {
             </h5>
             <div>
               <video
-                src={"./videos/chatgpt_writer_demo_1080.mp4"}
+                src={"./videos/chatgpt_writer_small_demo_compressed.mp4"}
                 controls={true}
                 autoPlay={false}
                 muted={true}
