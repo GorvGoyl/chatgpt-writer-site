@@ -128,6 +128,25 @@ export default function Home() {
             </div>
           </section>
           <section>
+            <h2 id="faq">Frequently asked questions</h2>
+            <div className="space-y-3">
+              <details className="">
+                <summary className="hover:text-slate-700" role="button">
+                  Is it really 100% free?
+                </summary>
+                Yes
+              </details>
+              <details className="">
+                <summary className="hover:text-slate-700" role="button">
+                  Which all languages does it support?
+                </summary>
+                All popular languages. Just mention the language in the text
+                prompt. For example: "Write an email in German language about
+                internship opportunity."
+              </details>
+            </div>
+          </section>
+          <section>
             <h2 id="privacy">Privacy</h2>
             <div>
               The ChatGPT Writer Extension has no ads, analytics, trackers, or
