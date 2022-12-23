@@ -2,7 +2,7 @@
 import { TitleUI } from "../components/TitleUI";
 import { ChromeLogo } from "../components/icons";
 import { formStyles } from "../styles/defaultStyles";
-import { Header } from "../components/header";
+import { description, Header } from "../components/header";
 import Image from "next/image";
 import gmail_button from "../public/images/gmail_button.jpg";
 import email_composer from "../public/images/email_composer.jpg";
@@ -18,11 +18,7 @@ export default function Home() {
         <div className="max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-32">
           <div></div>
           <TitleUI />
-          <h5 className="text-xl mt-12 leading-relaxed">
-            Free Chrome extension that crafts personalized email replies in no
-            time using AI (ChatGPT). Currently supported for Gmail. LinkedIn and
-            Outlook coming soon.
-          </h5>
+          <h5 className="text-xl mt-12 leading-relaxed">{description}</h5>
 
           <div className="mt-12">
             <a
