@@ -127,13 +127,34 @@ export default function Home() {
             <h2 id="faq">Frequently asked questions</h2>
             <div className="space-y-3">
               <details className="">
-                <summary className="hover:text-slate-700" role="button">
+                <summary
+                  className="font-medium hover:text-slate-700"
+                  role="button"
+                >
                   Is it really 100% free?
                 </summary>
                 Yes
               </details>
               <details className="">
-                <summary className="hover:text-slate-700" role="button">
+                <summary
+                  className="font-medium hover:text-slate-700"
+                  role="button"
+                >
+                  Does it access any sensitive email data?
+                </summary>
+                No. <br />
+                Data sent to AI model when writing a new email: <br /> - The
+                prompt you write in order to generate the email. <br /> <br />
+                Data sent to AI model when replying to an email: <br /> 1.
+                Previous email text content which you can edit and remove any
+                sensitive information before generating the reply. <br /> 2. The
+                prompt you write in order to generate the reply.
+              </details>
+              <details className="">
+                <summary
+                  className="font-medium hover:text-slate-700"
+                  role="button"
+                >
                   Which all languages does it support?
                 </summary>
                 All popular languages. Just mention the language in the text
