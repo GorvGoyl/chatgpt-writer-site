@@ -8,6 +8,7 @@ import gmail_button from "../public/images/gmail_button.jpg";
 import email_composer from "../public/images/email_composer.jpg";
 import reply_generated_insert_reply from "../public/images/reply_generated_insert_reply.jpg";
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
+import brave from "../public/images/brave.jpg";
 const extLink =
   "https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/";
 export default function Home() {
@@ -187,6 +188,27 @@ export default function Home() {
               </a>
               .
             </div>
+          </section>
+
+          <section>
+            <h2 id="troubleshoot">Troubleshoot issues</h2>
+            <h3>How to make it work on Brave browser</h3>
+            If you are using Brave browser, follow these steps to make it work:
+            <ul>
+              <li>Go to brave://settings/shields</li>
+              <li>
+                Disable{" "}
+                <span className="italic font-semibold">
+                  Prevent sites from fingerprinting me based on my language
+                  preferences
+                </span>
+                <Image
+                  src={brave}
+                  alt="Brave troubleshoot"
+                  placeholder="blur"
+                />
+              </li>
+            </ul>
           </section>
           <section>
             <h2 id="faq">Frequently asked questions</h2>
