@@ -158,9 +158,9 @@ export default function Home() {
                 placeholder="blur" // Optional blur-up while loading
               />
               <h5>
-                Personalized email replies will be generated using AI. <br />{" "}
-                Hit the <b>Insert generated reply</b> button to insert it in
-                Gmail's text box.
+                Personalized email reply will be generated using AI. <br /> Hit
+                the <b>Insert generated reply</b> button to insert it in Gmail's
+                text box.
               </h5>
               <Image
                 src={reply_generated_insert_reply}
@@ -195,7 +195,16 @@ export default function Home() {
             <h3>How to make it work on Brave browser</h3>
             If you are using Brave browser, follow these steps to make it work:
             <ul>
-              <li>Go to brave://settings/shields</li>
+              <li>
+                Go to{" "}
+                <a
+                  target={"_blank"}
+                  href="brave://settings/shields"
+                  rel="noreferrer"
+                >
+                  brave://settings/shields
+                </a>
+              </li>
               <li>
                 Disable{" "}
                 <span className="italic font-semibold">
