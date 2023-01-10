@@ -9,6 +9,7 @@ import email_composer from "../public/images/email_composer.jpg";
 import reply_generated_insert_reply from "../public/images/reply_generated_insert_reply.jpg";
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
 import brave from "../public/images/brave.jpg";
+import { TwitterBtn } from "../components/twitter";
 const extLink =
   "https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/";
 export default function Home() {
@@ -298,6 +299,8 @@ export default function Home() {
               Gourav.io
             </a>
             )
+            <br />
+            <TwitterBtn />
           </section>
         </div>
       </main>
