@@ -8,6 +8,9 @@ import gmail_button from "../public/images/gmail_button.jpg";
 import email_composer from "../public/images/email_composer.jpg";
 import reply_generated_insert_reply from "../public/images/reply_generated_insert_reply.jpg";
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
+import launch_ext from "../public/images/launch_ext.jpg";
+import popup_window from "../public/images/popup_window.jpg";
+import extension_from_gmail from "../public/images/extension_from_gmail.jpg";
 import brave from "../public/images/brave.jpg";
 import { TwitterBtn } from "../components/twitter";
 import { ChromeStars, ChromeUsers } from "../components/badge";
@@ -147,27 +150,30 @@ export default function Home() {
               />
             </div>
 
-            <h2 id="how-to-use">How to use</h2>
-            <div className="relative">
-              <h5>
-                Install the <a href={extLink}> ChatGPT Writer extension</a> from
-                the Chrome Web Store. <br />
-                Go to Gmail, open an email, and reply to it. <br />
-                Click the <b>ChatGPT Writer extension</b> button in the Gmail
-                reply box. <br />
-                <i>
-                  (reload the Gmail tab once if it was already opened before
-                  installing the extension)
-                </i>
-              </h5>
-              <Image
-                src={gmail_button}
-                alt="chatgpt writer button on gmail"
-                placeholder="blur" // Optional blur-up while loading
-              />
-              <h5>
-                Briefly enter what you want to reply to and hit{" "}
-                <b>Generate reply </b>button. <br />
+            <h2 id="how-to-use">How to use on all sites</h2>
+            <ul className="list-decimal">
+              <li>Install the ChatGPT Writer extension.</li>
+              <li>
+                Click on the extension icon.
+                <Image
+                  width={600}
+                  src={launch_ext}
+                  alt="launch extension from browser"
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </li>
+              <li>
+                A popup window will appear:
+                <Image
+                  width={600}
+                  src={popup_window}
+                  alt="chatgpt writer extension popup window"
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </li>
+              <li>
+                Briefly enter what do you want to write about and hit "Generate
+                Response" button. <br />
                 <i>
                   (If this is your first time, you need to create a free account
                   on{" "}
@@ -180,27 +186,81 @@ export default function Home() {
                   </a>
                   )
                 </i>
-              </h5>
-              <Image
-                src={email_composer}
-                alt="email composer"
-                placeholder="blur" // Optional blur-up while loading
-              />
-              <h5>
-                Personalized email reply will be generated using AI. <br /> Hit
-                the <b>Insert generated reply</b> button to insert it in Gmail's
-                text box.
-              </h5>
-              <Image
-                src={reply_generated_insert_reply}
-                alt="reply generated insert reply"
-                placeholder="blur" // Optional blur-up while loading
-              />
-              <Image
-                src={inserted_generated_reply}
-                alt="Picture of the author"
-                placeholder="blur" // Optional blur-up while loading
-              />
+              </li>
+            </ul>
+
+            <h2 id="how-to-use-gmail">How to use on Gmail</h2>
+            <div>
+              It has even better support for Gmail for best user experience.
+              <h3>How to generate email reply on Gmail:</h3>
+              <ul className="list-decimal">
+                <li>Go to Gmail, open an email, and reply to it.</li>
+                <li>
+                  Click the <b>ChatGPT Writer extension</b> button in the Gmail
+                  reply box.{" "}
+                  <Image
+                    src={gmail_button}
+                    alt="chatgpt writer button on gmail"
+                    placeholder="blur" // Optional blur-up while loading
+                  />
+                </li>
+                <li>
+                  Briefly enter what you want to reply to and hit{" "}
+                  <b>Generate reply </b>button. <br />{" "}
+                  <i>
+                    (If this is your first time, you need to create a free
+                    account on{" "}
+                    <a
+                      target={"_blank"}
+                      rel="noreferrer"
+                      href="https://chat.openai.com"
+                    >
+                      chat.openai.com
+                    </a>
+                    )
+                  </i>
+                  <Image
+                    src={email_composer}
+                    alt="email composer"
+                    placeholder="blur" // Optional blur-up while loading
+                  />
+                </li>
+
+                <li>
+                  Personalized email reply will be generated using AI. <br />{" "}
+                  <Image
+                    src={reply_generated_insert_reply}
+                    alt="reply generated insert reply"
+                    placeholder="blur" // Optional blur-up while loading
+                  />
+                </li>
+                <li>
+                  Hit the <b>Insert generated reply</b> button to insert it in
+                  Gmail's text box.{" "}
+                  <Image
+                    src={inserted_generated_reply}
+                    alt="Picture of the author"
+                    placeholder="blur" // Optional blur-up while loading
+                  />
+                </li>
+              </ul>
+              <h3>How to generate new email on Gmail:</h3>
+              <ul className="list-decimal">
+                <li>Go to Gmail and compose a new email.</li>
+                <li>
+                  Click the ChatGPT Writer extension button in the Gmail
+                  textbox.{" "}
+                  <Image
+                    src={extension_from_gmail}
+                    alt="launch chatgpt writer from gmail"
+                    placeholder="blur" // Optional blur-up while loading
+                  />
+                </li>
+                <li>
+                  Briefly enter what you want to write an email about and hit{" "}
+                  <b>Generate Email</b> button.
+                </li>
+              </ul>
             </div>
           </section>
           <section>
