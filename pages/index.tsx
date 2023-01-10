@@ -59,7 +59,7 @@ export default function Home() {
                 />
               </svg>
               Works in all Chromium-based browsers, such as Chrome, Brave, and
-              Edge.
+              Edge
             </h5>
             <h5 className="text-base mt-2 text-slate-500 flex gap-1">
               <svg
