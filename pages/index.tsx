@@ -10,6 +10,7 @@ import reply_generated_insert_reply from "../public/images/reply_generated_inser
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
 import brave from "../public/images/brave.jpg";
 import { TwitterBtn } from "../components/twitter";
+import { ChromeStars, ChromeUsers } from "../components/badge";
 const extLink =
   "https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/";
 export default function Home() {
@@ -32,6 +33,16 @@ export default function Home() {
               <ChromeLogo size="34" />
               Download Free Extension
             </a>
+            <span className="flex gap-5 mt-5 mb-8">
+              <ChromeStars
+                id="pdnenlnelpdomajfejgapbdpmjkfpjkp"
+                link="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
+              />
+              <ChromeUsers
+                id="pdnenlnelpdomajfejgapbdpmjkfpjkp"
+                link="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
+              />
+            </span>
             <h5 className="text-base mt-4 text-slate-500 flex gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
