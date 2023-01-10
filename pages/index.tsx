@@ -265,6 +265,18 @@ export default function Home() {
                   className="font-medium hover:text-slate-700"
                   role="button"
                 >
+                  Which all websites does it support?
+                </summary>
+                It works on all sites. Just click the extension icon to open
+                popup window. <br /> If you are on Gmail, launch the extension
+                from the icon in Gmail text editor to get even better user
+                experience.
+              </details>
+              <details className="">
+                <summary
+                  className="font-medium hover:text-slate-700"
+                  role="button"
+                >
                   Does it access any sensitive email data?
                 </summary>
                 No. <br />
