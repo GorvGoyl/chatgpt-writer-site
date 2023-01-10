@@ -172,8 +172,8 @@ export default function Home() {
                 />
               </li>
               <li>
-                Briefly enter what do you want to write about and hit "Generate
-                Response" button. <br />
+                Briefly enter what do you want to write about and hit{" "}
+                <b>Generate Response</b> button. <br />
                 <i>
                   (If this is your first time, you need to create a free account
                   on{" "}
