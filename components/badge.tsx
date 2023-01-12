@@ -4,7 +4,6 @@ export const ChromeUsers = (props: { id: string; link: string }) => (
       title="Chrome extension link"
       href={props.link}
       target="_blank"
-      rel="noopener noreferrer"
     > */}
     <img
       alt="Chrome users"
@@ -22,7 +21,6 @@ export const ChromeStars = (props: { id: string; link: string }) => (
       title="Chrome extension link"
       href={props.link}
       target="_blank"
-      rel="noopener noreferrer"
     > */}
     <img
       alt="Chrome extension stars"

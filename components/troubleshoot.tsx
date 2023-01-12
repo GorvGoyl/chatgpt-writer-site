@@ -10,7 +10,7 @@ export function Troubleshoot() {
       <ul>
         <li>
           Go to{" "}
-          <a target={"_blank"} href="brave://settings/shields" rel="noreferrer">
+          <a target={"_blank"} href="brave://settings/shields">
             brave://settings/shields
           </a>
         </li>

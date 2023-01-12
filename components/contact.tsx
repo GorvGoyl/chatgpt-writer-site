@@ -10,7 +10,6 @@ export function Contact() {
         <a
           target={"_blank"}
           className="text-slate-600"
-          rel="noreferrer"
           href="https://github.com/GorvGoyl/ChatGPT-Writer/discussions"
         >
           Github
@@ -27,11 +26,7 @@ export function CTAs() {
       <p className="flex items-center gap-1">
         <span>
           ❤️ Support my work,{" "}
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://www.patreon.com/user?u=86740203"
-          >
+          <a target={"_blank"} href="https://www.patreon.com/user?u=86740203">
             Become my patron
           </a>
         </span>
@@ -43,7 +38,6 @@ export function CTAs() {
         <a
           target={"_blank"}
           className="text-slate-600"
-          rel="noreferrer"
           href="https://github.com/GorvGoyl/ChatGPT-Writer/discussions"
         >
           Github
@@ -53,12 +47,7 @@ export function CTAs() {
 
       <p>
         🤗 Support <b>ChatGPT Writer</b> by rating ★★★★★ on{" "}
-        <a
-          target={"_blank"}
-          className="text-slate-600"
-          rel="noreferrer"
-          href={extLink}
-        >
+        <a target={"_blank"} className="text-slate-600" href={extLink}>
           Chrome Web Store
         </a>
         .

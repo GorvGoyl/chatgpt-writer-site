@@ -5,7 +5,6 @@ export function TwitterBtn(): JSX.Element {
         <a
           href="https://twitter.com/GorvGoyl"
           target="_blank"
-          rel="noopener noreferrer"
           className="flex px-2 py-0.5  items-center gap-1 rounded bg-[#1b95e0] font-medium align-top text-sm leading-6 active:bg-[#0c7abf] focus:bg-[#0c7abf] hover:bg-[#0c7abf] text-white no-underline hover:no-underline"
           title="Follow 'Gourav Goyal' on Twitter"
         >

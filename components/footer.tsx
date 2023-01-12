@@ -9,7 +9,6 @@ export function Footer() {
         <a
           target={"_blank"}
           className="text-slate-600"
-          rel="noreferrer"
           href="https://gourav.io"
         >
           Gourav.io

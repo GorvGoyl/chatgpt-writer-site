@@ -36,7 +36,6 @@ export default function Home() {
             <a
               href={extLink}
               target="_blank"
-              rel="noreferrer"
               className={`${formStyles.buttonPrimary} gap-4 text-lg py-3 px-6`}
             >
               <ChromeLogo size="34" />
@@ -183,11 +182,7 @@ export default function Home() {
                 <i>
                   (If this is your first time, you need to create a free account
                   on{" "}
-                  <a
-                    target={"_blank"}
-                    rel="noreferrer"
-                    href="https://chat.openai.com"
-                  >
+                  <a target={"_blank"} href="https://chat.openai.com">
                     chat.openai.com
                   </a>
                   )
@@ -244,11 +239,7 @@ export default function Home() {
                   <i>
                     (If this is your first time, you need to create a free
                     account on{" "}
-                    <a
-                      target={"_blank"}
-                      rel="noreferrer"
-                      href="https://chat.openai.com"
-                    >
+                    <a target={"_blank"} href="https://chat.openai.com">
                       chat.openai.com
                     </a>
                     )
