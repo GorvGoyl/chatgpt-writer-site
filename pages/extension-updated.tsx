@@ -39,6 +39,7 @@ export default function Home() {
                 <i>Insert generated response</i> action is fixed for LTR
                 languages in Gmail.
               </li>
+              <li>More cool features coming soon 🕺</li>
             </ul>
 
             <CTAs />
