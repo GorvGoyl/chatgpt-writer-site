@@ -11,11 +11,15 @@ import inserted_generated_reply from "../public/images/inserted_generated_reply.
 import launch_ext from "../public/images/launch_ext.jpg";
 import popup_window from "../public/images/popup_window.jpg";
 import extension_from_gmail from "../public/images/extension_from_gmail.jpg";
-import brave from "../public/images/brave.jpg";
-import { TwitterBtn } from "../components/twitter";
+
 import { ChromeStars, ChromeUsers } from "../components/badge";
-const extLink =
-  "https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/";
+import { Faq } from "../components/faq";
+import { Privacy } from "../components/privacy";
+import { Footer } from "../components/footer";
+import { Troubleshoot } from "../components/troubleshoot";
+import { Contact } from "../components/contact";
+import { extLink } from "../utils/constants";
+
 export default function Home() {
   return (
     <>
@@ -189,9 +193,9 @@ export default function Home() {
               </li>
             </ul>
 
-            <h2 id="how-to-use-gmail">How to use on Gmail</h2>
+            <h2 id="how-to-use-gmail">Enhanced support on Gmail</h2>
             <div>
-              It has even better support for Gmail for best user experience.
+              It has enhanced support on Gmail for even better user experience.
               <h3>How to generate email reply on Gmail:</h3>
               <ul className="list-decimal">
                 <li>Go to Gmail, open an email, and reply to it.</li>
@@ -263,128 +267,14 @@ export default function Home() {
               </ul>
             </div>
           </section>
-          <section>
-            <h2 id="support">Contact</h2>
-            <div>
-              Provide feedback, ask questions, and report bugs on{" "}
-              <a
-                target={"_blank"}
-                className="text-slate-600"
-                rel="noreferrer"
-                href="https://github.com/GorvGoyl/ChatGPT-Writer/discussions"
-              >
-                Github
-              </a>
-              .
-            </div>
-          </section>
 
-          <section>
-            <h2 id="troubleshoot">Troubleshoot issues</h2>
-            <h3>How to make it work on Brave browser</h3>
-            If you are using Brave browser, follow these steps to make it work:
-            <ul>
-              <li>
-                Go to{" "}
-                <a
-                  target={"_blank"}
-                  href="brave://settings/shields"
-                  rel="noreferrer"
-                >
-                  brave://settings/shields
-                </a>
-              </li>
-              <li>
-                Disable{" "}
-                <span className="italic font-semibold">
-                  Prevent sites from fingerprinting me based on my language
-                  preferences
-                </span>
-                <Image
-                  src={brave}
-                  alt="Brave troubleshoot"
-                  placeholder="blur"
-                />
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h2 id="faq">Frequently asked questions</h2>
-            <div className="space-y-3">
-              <details className="">
-                <summary
-                  className="font-medium hover:text-slate-700"
-                  role="button"
-                >
-                  Is it really 100% free?
-                </summary>
-                Yes
-              </details>
-              <details className="">
-                <summary
-                  className="font-medium hover:text-slate-700"
-                  role="button"
-                >
-                  Which all websites does it support?
-                </summary>
-                It works on all sites. Just click the extension icon to open
-                popup window. <br /> If you are on Gmail, launch the extension
-                from the icon in Gmail text editor to get even better user
-                experience.
-              </details>
-              <details className="">
-                <summary
-                  className="font-medium hover:text-slate-700"
-                  role="button"
-                >
-                  Does it access any sensitive email data?
-                </summary>
-                No. <br />
-                Data sent to AI model when writing a new email: <br /> - The
-                prompt you write in order to generate the email. <br /> <br />
-                Data sent to AI model when replying to an email: <br /> 1.
-                Previous email text content which you can edit and remove any
-                sensitive information before generating the reply. <br /> 2. The
-                prompt you write in order to generate the reply.
-              </details>
-              <details className="">
-                <summary
-                  className="font-medium hover:text-slate-700"
-                  role="button"
-                >
-                  Which all languages does it support?
-                </summary>
-                All popular languages. Just mention the language in the text
-                prompt. For example: "Write an email in German language about
-                internship opportunity."
-              </details>
-            </div>
-          </section>
-          <section>
-            <h2 id="privacy">Privacy</h2>
-            <div>
-              The ChatGPT Writer Extension has no ads, analytics, trackers, or
-              cookies. It does not collect any user data. The only information
-              shared with the AI model (chat.openai.com) is the prompt and
-              context you provide in order to generate a response.
-            </div>
-          </section>
+          <Contact />
 
-          <hr />
-          <section className="mt-10 text-center  text-slate-600 text-sm">
-            Made by Gourav (
-            <a
-              target={"_blank"}
-              className="text-slate-600"
-              rel="noreferrer"
-              href="https://gourav.io"
-            >
-              Gourav.io
-            </a>
-            )
-            <br />
-            <TwitterBtn />
-          </section>
+          <Troubleshoot />
+
+          <Faq />
+          <Privacy />
+          <Footer />
         </div>
       </main>
     </>
