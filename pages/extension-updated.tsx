@@ -37,7 +37,7 @@ export default function Home() {
               </li>
               <li>
                 <i>Insert generated response</i> action is fixed for LTR
-                langauges in Gmail.
+                languages in Gmail.
               </li>
             </ul>
 
