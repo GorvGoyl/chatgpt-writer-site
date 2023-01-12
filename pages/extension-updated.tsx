@@ -35,6 +35,10 @@ export default function Home() {
                 Fixed the bug that sometimes caused it to get stuck in the
                 middle of generating a response.
               </li>
+              <li>
+                <i>Insert generated response</i> action is fixed for LTR
+                langauges in Gmail.
+              </li>
             </ul>
 
             <CTAs />
