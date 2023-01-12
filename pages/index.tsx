@@ -11,6 +11,8 @@ import inserted_generated_reply from "../public/images/inserted_generated_reply.
 import launch_ext from "../public/images/launch_ext.jpg";
 import popup_window from "../public/images/popup_window.jpg";
 import extension_from_gmail from "../public/images/extension_from_gmail.jpg";
+import set_shortcut from "../public/images/set-shortcut.jpg";
+import shortcuts from "../public/images/shortcuts.jpg";
 
 import { ChromeStars, ChromeUsers } from "../components/badge";
 import { Faq } from "../components/faq";
@@ -192,6 +194,34 @@ export default function Home() {
                 </i>
               </li>
             </ul>
+
+            <section>
+              <details>
+                <summary role="button ">
+                  <h4 className="m-0 underline inline-block">
+                    See how to set keyboard shortcut to launch extension
+                  </h4>
+                </summary>
+                <ul className="list-decimal">
+                  <li>
+                    Go to extensions keyboard shortcuts page
+                    <Image
+                      src={shortcuts}
+                      alt="go to extensions shortcuts"
+                      placeholder="blur" // Optional blur-up while loading
+                    />
+                  </li>
+                  <li>
+                    Set keyboard shortcut for ChatGPT Writer
+                    <Image
+                      src={set_shortcut}
+                      alt="Set keyboard shortcut for ChatGPT Writer"
+                      placeholder="blur" // Optional blur-up while loading
+                    />
+                  </li>
+                </ul>
+              </details>
+            </section>
 
             <h2 id="how-to-use-gmail">Enhanced support on Gmail</h2>
             <div>
