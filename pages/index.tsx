@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { TitleUI } from "../components/TitleUI";
-import { ChromeLogo } from "../components/icons";
+import { ChromeLogo, Star } from "../components/icons";
 import { formStyles } from "../styles/defaultStyles";
 import { description, Header } from "../components/header";
 import Image from "next/image";
@@ -41,15 +41,23 @@ export default function Home() {
               <ChromeLogo size="34" />
               Download Free Extension
             </a>
-            <span className="flex gap-5 mt-5 mb-8">
-              <ChromeStars
+            <span className="flex flex-col gap-1 mt-5 mb-8">
+              <div className="flex">
+                <Star size="18" />
+                <Star size="18" /> <Star size="18" /> <Star size="18" />
+                <Star size="18" />
+              </div>
+              <div>
+                <b>10,000+</b> happy users who don't like writing emails
+              </div>
+              {/* <ChromeStars
                 id="pdnenlnelpdomajfejgapbdpmjkfpjkp"
                 link="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
               />
               <ChromeUsers
                 id="pdnenlnelpdomajfejgapbdpmjkfpjkp"
                 link="https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/"
-              />
+              /> */}
             </span>
             <h5 className="text-base mt-4 text-slate-500 flex gap-1">
               <svg
