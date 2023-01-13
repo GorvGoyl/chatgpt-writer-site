@@ -43,9 +43,9 @@ export default function Home() {
             </a>
             <span className="flex flex-col gap-2 mt-7 mb-8">
               <div className="flex">
-                <Star size="20" />
-                <Star size="20" /> <Star size="20" /> <Star size="20" />
-                <Star size="20" />
+                <Star size="22" />
+                <Star size="22" /> <Star size="22" /> <Star size="22" />
+                <Star size="22" />
               </div>
               <div>
                 <b>10,000+</b> happy users who don't like writing emails
