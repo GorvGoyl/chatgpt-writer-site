@@ -41,7 +41,7 @@ export default function Home() {
               <ChromeLogo size="34" />
               Download Free Extension
             </a>
-            <span className="flex flex-col gap-1 mt-5 mb-8">
+            <span className="flex flex-col gap-2 mt-7 mb-8">
               <div className="flex">
                 <Star size="20" />
                 <Star size="20" /> <Star size="20" /> <Star size="20" />
