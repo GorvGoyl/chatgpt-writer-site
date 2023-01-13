@@ -295,6 +295,7 @@ export default function Home() {
                   textbox.{" "}
                   <Image
                     src={extension_from_gmail}
+                    width={600}
                     alt="launch chatgpt writer from gmail"
                     placeholder="blur" // Optional blur-up while loading
                   />
