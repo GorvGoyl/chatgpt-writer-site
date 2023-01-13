@@ -20,7 +20,12 @@ export function Troubleshoot() {
             Prevent sites from fingerprinting me based on my language
             preferences
           </span>
-          <Image src={brave} alt="Brave troubleshoot" placeholder="blur" />
+          <Image
+            src={brave}
+            width={600}
+            alt="Brave troubleshoot"
+            placeholder="blur"
+          />
         </li>
       </ul>
     </section>
