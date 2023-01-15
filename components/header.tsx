@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const title = "ChatGPT Writer - Write emails and messages using AI";
 export const description =
-  "Free Chrome extension to generate entire emails and messages using ChatGPT AI. All sites are supported and enhanced support for Gmail";
+  "Free Chrome extension to generate entire emails and messages using ChatGPT AI. All sites are supported and enhanced support for Gmail.";
 
 const liveDomain = "https://chatgptwriter.ai";
 const pageURL = liveDomain;
