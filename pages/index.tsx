@@ -238,7 +238,8 @@ export default function Home() {
 
             <h2 id="how-to-use-gmail">Enhanced support on Gmail</h2>
             <div>
-              It has enhanced support on Gmail for even better user experience.
+              ChatGPT Writer extension is tightly integrated with Gmail for even
+              better user experience.
               <h3>How to generate email reply on Gmail:</h3>
               <ul className="list-decimal">
                 <li>Go to Gmail, open an email, and reply to it.</li>

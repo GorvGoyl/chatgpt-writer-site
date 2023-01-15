@@ -14,11 +14,12 @@ export function Faq() {
           <summary className="font-medium hover:text-slate-700" role="button">
             What is ChatGPT?
           </summary>
-          ChatGPT is a computer program that can understand and generate natural
-          language text. It uses a neural network, a type of machine learning
-          model, to generate text based on the patterns it has learned from the
-          large amount of text data it was trained on. This allows it to respond
-          to prompts and generate text in a way that resembles human writing.
+          Chat GPT is a computer program that can understand and generate
+          natural language text. It uses a neural network, a type of machine
+          learning model, to generate text based on the patterns it has learned
+          from the large amount of text data it was trained on. This allows it
+          to respond to prompts and generate text in a way that resembles human
+          writing.
         </details>
         <details className="">
           <summary className="font-medium hover:text-slate-700" role="button">
