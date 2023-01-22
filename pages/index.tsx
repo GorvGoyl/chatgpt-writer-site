@@ -48,7 +48,7 @@ export default function Home() {
                 <Star size="22" />
               </div>
               <div>
-                <b>30,000+</b> happy users who don't like writing emails
+                <b>40,000+</b> happy users who don't like writing emails
               </div>
               {/* <ChromeStars
                 id="pdnenlnelpdomajfejgapbdpmjkfpjkp"
