@@ -20,6 +20,7 @@ export function Header() {
         <meta name="robots" content="follow, index" />
         <meta name="title" content={title} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content={pageURL} />
         <meta property="og:type" content={type} />
@@ -35,8 +36,8 @@ export function Header() {
         <meta property="twitter:url" content={pageURL} />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <link rel="canonical" href={liveDomain} />
         <link rel="icon" href="/favicon.ico" />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"
