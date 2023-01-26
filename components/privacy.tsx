@@ -3,10 +3,8 @@ export function Privacy() {
     <section>
       <h2 id="privacy">Privacy</h2>
       <div>
-        The ChatGPT Writer Extension has no ads, analytics, trackers, or
-        cookies. It does not collect any user data. The only information shared
-        with the AI model (chat.openai.com) is the prompt and context you
-        provide in order to generate a response.
+        ChatGPT Writer respects your privacy and does not use ads, cookies, or
+        third-party trackers.
       </div>
     </section>
   );

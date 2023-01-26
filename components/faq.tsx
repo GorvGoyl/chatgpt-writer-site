@@ -31,15 +31,12 @@ export function Faq() {
         </details>
         <details className="">
           <summary className="font-medium hover:text-slate-700" role="button">
-            Does it access any sensitive email data?
+            Which data is shared with the AI model?
           </summary>
-          No. <br />
-          Data sent to AI model when writing a new email: <br /> - The prompt
-          you write in order to generate the email. <br /> <br />
-          Data sent to AI model when replying to an email: <br /> 1. Previous
-          email text content which you can edit and remove any sensitive
-          information before generating the reply. <br /> 2. The prompt you
-          write in order to generate the reply.
+          When writing a new email, the data sent is the user prompt. When
+          replying to an email, the data sent is the previous email text content
+          (which can be edited to remove sensitive information) and the user
+          prompt.
         </details>
         <details className="">
           <summary className="font-medium hover:text-slate-700" role="button">
