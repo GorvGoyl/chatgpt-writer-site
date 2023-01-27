@@ -245,7 +245,7 @@ export default function Home() {
             <section>
               <details>
                 <summary role="button ">
-                  <h4 className="m-0 underline inline-block">
+                  <h4 className=" cursor-pointer m-0 underline inline-block">
                     See how to set keyboard shortcut to launch extension
                   </h4>
                 </summary>
