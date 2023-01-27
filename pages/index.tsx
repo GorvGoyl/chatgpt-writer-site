@@ -186,7 +186,7 @@ export default function Home() {
           </div>
 
           <section>
-            <h2 id="demo">ChatGPT Writer extension demo</h2>
+            <h2 id="demo">Product Demonstration</h2>
             <h5>
               In the below video, I generated an email to respond to a
               recruiter.
