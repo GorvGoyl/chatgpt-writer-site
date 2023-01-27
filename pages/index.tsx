@@ -188,8 +188,8 @@ export default function Home() {
           <section>
             <h2 id="demo">Product Demonstration</h2>
             <h5>
-              In the below video, I generated an email to respond to a
-              recruiter.
+              In the below video, I generated an entire email using ChatGPT
+              Writer to respond to a recruiter.
             </h5>
             <div>
               <video
