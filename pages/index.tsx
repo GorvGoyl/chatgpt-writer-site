@@ -8,13 +8,19 @@ import gmail_button from "../public/images/gmail_button.jpg";
 import email_composer from "../public/images/email_composer.jpg";
 import reply_generated_insert_reply from "../public/images/reply_generated_insert_reply.jpg";
 import inserted_generated_reply from "../public/images/inserted_generated_reply.jpg";
-import launch_ext from "../public/images/launch_ext.jpg";
-import popup_window from "../public/images/popup_window.jpg";
-import extension_from_gmail from "../public/images/extension_from_gmail.jpg";
+// import launch_ext from "../public/images/launch_ext.jpg";
+// import popup_window from "../public/images/popup_window.jpg";
+// import extension_from_gmail from "../public/images/extension_from_gmail.jpg";
+
+import launch_from_gmail from "../public/images/launch_from_gmail.jpg";
+// import gmail_response from "../public/images/gmail_response.jpg";
+import generate_responses from "../public/images/generate_responses.jpg";
+import launch_from_any_site from "../public/images/launch_from_any_site.jpg";
+
 import set_shortcut from "../public/images/set-shortcut.jpg";
 import shortcuts from "../public/images/shortcuts.jpg";
 
-import { ChromeStars, ChromeUsers } from "../components/badge";
+// import { ChromeStars, ChromeUsers } from "../components/badge";
 import { Faq } from "../components/faq";
 import { Privacy } from "../components/privacy";
 import { Footer } from "../components/footer";
@@ -197,13 +203,19 @@ export default function Home() {
 
             <h2 id="how-to-use">How to use on all sites</h2>
             <ul className="list-decimal">
-              <li>Install the ChatGPT Writer extension.</li>
+              <li>
+                Install{" "}
+                <a target={"_blank"} href={extLink}>
+                  ChatGPT Writer
+                </a>{" "}
+                extension.
+              </li>
               <li>
                 Click on the extension icon.
                 <Image
                   width={600}
-                  src={launch_ext}
-                  alt="launch extension from browser"
+                  src={launch_from_any_site}
+                  alt="launch extension from any site"
                   placeholder="blur" // Optional blur-up while loading
                 />
               </li>
@@ -211,8 +223,8 @@ export default function Home() {
                 A popup window will appear:
                 <Image
                   width={600}
-                  src={popup_window}
-                  alt="chatgpt writer extension popup window"
+                  src={generate_responses}
+                  alt="chatgpt writer generate responses"
                   placeholder="blur" // Optional blur-up while loading
                 />
               </li>
@@ -269,8 +281,8 @@ export default function Home() {
                   Click the <b>ChatGPT Writer extension</b> button in the Gmail
                   reply box.{" "}
                   <Image
-                    src={gmail_button}
-                    alt="chatgpt writer button on gmail"
+                    src={launch_from_gmail}
+                    alt="launch chatgpt writer button from gmail"
                     placeholder="blur" // Optional blur-up while loading
                   />
                 </li>
@@ -310,7 +322,7 @@ export default function Home() {
                   />
                 </li>
               </ul>
-              <h3>How to generate new email on Gmail:</h3>
+              {/* <h3>How to generate new email on Gmail:</h3>
               <ul className="list-decimal">
                 <li>Go to Gmail and compose a new email.</li>
                 <li>
@@ -327,7 +339,7 @@ export default function Home() {
                   Briefly enter what you want to write an email about and hit{" "}
                   <b>Generate Email</b> button.
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </section>
 
