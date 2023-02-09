@@ -5,7 +5,7 @@ export function Troubleshoot() {
   return (
     <section>
       <h2 id="troubleshoot">Troubleshoot issues</h2>
-      <h3>How to make it work on Brave browser</h3>
+      <h3 id="brave-issue">How to make it work on Brave browser</h3>
       If you are using Brave browser, follow these steps to make it work:
       <ul>
         <li>
