@@ -17,7 +17,7 @@ export default function Custom404() {
           <div></div>
 
           <h2 className="text-slate-600">
-            Promote your product to 100k+ users on ChatGPT Writer Chrome
+            Promote your product to 200k+ users on ChatGPT Writer Chrome
             Extension
           </h2>
 
